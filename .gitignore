@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+docs/
+run_app.bat
+run_app.ps1
+tests/
+
+# ML / Data
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+*.onnx
+dataset/raw/
+dataset/processed/
+model/checkpoints/
+model/artifacts/
+*.csv
+!dataset/README.md
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+*.log
+.streamlit/
+
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# PDFs locais (manter só referência no repo)
+# pdfs/
