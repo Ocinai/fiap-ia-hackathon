@@ -1,14 +1,5 @@
-"""
-Parser de diagrama de arquitetura.
-Recebe uma imagem e retorna os componentes identificados (nome/tipo e posição).
-MVP: placeholder; integrar com modelo treinado depois.
-"""
-
 from pathlib import Path
 from typing import List, Optional, Tuple
-
-import sys
-print(sys.executable)
 
 import cv2
 import pytesseract
